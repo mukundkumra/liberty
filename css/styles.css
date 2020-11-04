@@ -1,0 +1,31 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+h1{
+  text-align: center;
+  padding-top: 4%;
+  margin: 0;
+  font-size: 3rem;
+}
+
+h4 {
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2.5%;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #495464;
+}
+
+p{
+  font-style: italic;
+  text-align: justify;
+}
