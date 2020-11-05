@@ -11,11 +11,6 @@ h1{
   font-size: 3rem;
 }
 
-h4 {
-  text-align: center;
-  margin: 0;
-}
-
 h2 {
   text-align: center;
   margin-top: 1rem;
@@ -25,7 +20,23 @@ h2 {
   color: #495464;
 }
 
+h4 {
+  text-align: center;
+  margin: 0;
+}
+
 p{
   font-style: italic;
   text-align: justify;
+}
+
+.byline {
+  font-weight: 300;
+}
+
+.tbc{
+  text-align: right;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #6b778d;
 }
