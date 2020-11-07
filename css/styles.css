@@ -4,6 +4,10 @@ body{
   padding-right: 12%;
 }
 
+a{
+  font-weight: bold;
+}
+
 h1{
   text-align: center;
   padding-top: 4%;
@@ -40,4 +44,45 @@ p{
   font-weight: bold;
   font-size: 1rem;
   color: #6b778d;
+}
+
+.lastchpbtn {
+  text-align: left;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border-style: solid;
+  border-radius: 0.7rem;;
+  border-color: #9ba4b4;
+  color: #9ba4b4;
+  background-color: #394867;
+  transition: 0.5s background-color;
+}
+
+.lastchpbtn:hover {
+  background-color:#9ba4b4;
+  color: #394867;
+  transition-delay: 0.2s;
+}
+
+.nextchpbtn {
+  text-align: right;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border-style: solid;
+  border-radius: 0.7rem;
+  border-color: #9ba4b4;
+  color: #9ba4b4;
+  background-color: #394867;
+  transition: 0.5s background-color;
+}
+
+.nextchpbtn:hover{
+  background-color:#9ba4b4;
+  color: #394867;
+  transition-delay: 0.2s;
+}
+
+.lastnextchp {
+  margin-bottom:2rem;
+  margin-top:2rem;
 }
