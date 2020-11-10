@@ -47,7 +47,7 @@ padding-right: 6%;
 .tbc{
   text-align: right;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #6b778d;
   margin-bottom: 0;
 }
@@ -63,6 +63,7 @@ padding-right: 6%;
   transition: 0.5s background-color;
   margin-bottom:2rem;
   margin-top:2rem;
+  font-size: 1.5rem;
 }
 
 .lastchpbtn:hover {
@@ -86,6 +87,7 @@ padding-right: 6%;
   transition: 0.5s background-color;
   margin-bottom:2rem;
   margin-top:2rem;
+  font-size: 1.5rem;
 }
 
 .nextchpbtn:hover{
@@ -106,7 +108,7 @@ padding-right: 6%;
   margin-bottom:0.5rem;
   margin-top:0.5rem;
   display: flex;
-  text-align: center;
+  font-size: 1.5rem;
 }
 
 .chpbtn:hover{
@@ -124,7 +126,7 @@ padding-right: 6%;
 
 .nav-item {
   font-size: 1.5rem;
-  padding: 0.5rem;
+  padding: 0.5rem 1.2rem;
 }
 
 .navbar-brand {
@@ -145,6 +147,8 @@ padding-right: 6%;
 .nav-item {font-size: 1rem;}
 .logo {height: 40px;}
 .byline {font-size: 1rem;}
+.tbc {font-size: 1rem;}
+.lastchpbtn, .nextchpbtn, .chpbtn {font-size: 1rem;}
 }
 
 @media (min-width:1268px) {
