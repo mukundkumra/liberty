@@ -125,8 +125,8 @@ padding-right: 6%;
 }
 
 .nav-item {
-  font-size: 1.5rem;
-  padding: 0.5rem 1.2rem;
+  font-size: 2rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .navbar-brand {
@@ -146,9 +146,7 @@ padding-right: 6%;
 .design1 {width: 20%;}
 .nav-item {font-size: 1rem;}
 .logo {height: 40px;}
-.byline {font-size: 1rem;}
-.tbc {font-size: 1rem;}
-.lastchpbtn, .nextchpbtn, .chpbtn {font-size: 1rem;}
+.byline, .tbc, .lastchpbtn, .nextchpbtn, .chpbtn {font-size: 1rem;}
 }
 
 @media (min-width:1268px) {
