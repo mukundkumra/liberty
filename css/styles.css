@@ -1,11 +1,10 @@
 body{
   font-family: 'Roboto', sans-serif;
-  padding-left: 12%;
-  padding-right: 12%;
 }
 
 a{
   font-weight: bold;
+  text-decoration: none!important;
 }
 
 h1{
@@ -18,7 +17,7 @@ h1{
 h2 {
   text-align: center;
   margin-top: 1rem;
-  margin-bottom: 2.5%;
+  margin-bottom: 2%;
   font-weight: 400;
   font-size: 1.5rem;
   color: #495464;
@@ -39,6 +38,11 @@ p{
   font-size: 1rem;
 }
 
+.content {
+padding-left: 12%;
+padding-right: 12%;
+}
+
 .tbc{
   text-align: right;
   font-weight: bold;
@@ -49,7 +53,6 @@ p{
 
 .lastchpbtn {
   float: left;
-  text-decoration: none;
   padding: 0.5rem 1.5rem;
   border-style: solid;
   border-radius: 0.7rem;;
@@ -67,9 +70,12 @@ p{
   transition-delay: 0.2s;
 }
 
+.nav-link, .nav-item {
+  font-weight: 400;
+}
+
 .nextchpbtn {
   float: right;
-  text-decoration: none;
   padding: 0.5rem 1.5rem;
   border-style: solid;
   border-radius: 0.7rem;
@@ -85,4 +91,47 @@ p{
   background-color:#9ba4b4;
   color: #394867;
   transition-delay: 0.2s;
+}
+
+.chpbtn {
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border-style: solid;
+  border-radius: 0.7rem;
+  border-color: #9ba4b4;
+  color: #9ba4b4;
+  background-color: #394867;
+  transition: 0.5s background-color;
+  margin-bottom:0.5rem;
+  margin-top:0.5rem;
+  display: flex;
+  text-align: center;
+}
+
+.chpbtn:hover{
+  background-color:#9ba4b4;
+  color: #394867;
+  transition-delay: 0.2s;
+}
+
+.chlist {
+  margin-bottom: 0.7rem;
+  margin-top: 0.8rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+.nav-item, .navbar-brand {
+  padding: 0.5rem;
+}
+
+@media (max-width:576px) {
+  p {font-size: 1.2rem;}
+  h2 {margin-bottom: 2rem;}
+.content {padding-right:6%;padding-left:6%}
+}
+
+@media (max-width:768px) {
+.content {padding-right:9%;padding-left:9%}
+.designs {width: 100%;}
 }
