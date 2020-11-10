@@ -125,13 +125,16 @@ padding-right: 12%;
   padding: 0.5rem;
 }
 
-@media (max-width:576px) {
+@media (max-width:876px) {
   p {font-size: 1.2rem;}
   h2 {margin-bottom: 2rem;}
 .content {padding-right:6%;padding-left:6%}
+.designs {width: 100%;}
+.nav-item {font-size: 1.5rem;}
+.logo {height: 60px;}
 }
 
-@media (max-width:768px) {
+@media (max-width:1068px) {
 .content {padding-right:9%;padding-left:9%}
-.designs {width: 100%;}
+.designs {width: 80%;}
 }
