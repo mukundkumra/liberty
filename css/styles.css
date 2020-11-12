@@ -167,7 +167,8 @@ p, .byline, .tbc, .lastchpbtn, .nextchpbtn, .chpbtn, .nav-item {font-size: 1rem;
 
 /* Media Query Breakpoints */
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:1200px) {
+  p {font-size: 1.5rem;}
 .content {padding-right:9%;padding-left:9%}
 .design1 {width: 60%;}
 .design2 {width: 80%}
@@ -176,7 +177,7 @@ p, .byline, .tbc, .lastchpbtn, .nextchpbtn, .chpbtn, .nav-item {font-size: 1rem;
 li.nav-item {padding-left: 1.5rem;}
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:992px) {
   h1 {font-size: 4rem;}
   h2 {font-size: 2.5rem;margin-bottom: 2rem;}
   p {font-size: 2rem;}
