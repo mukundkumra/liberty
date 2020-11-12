@@ -183,7 +183,7 @@ li.nav-item {padding-left: 2.3rem; font-size: 1.5rem;}
   p {font-size: 2rem;}
 .content {padding-right:6%;padding-left:6%}
 .design1, .design2 {width: 100%;}
-.nav-item {font-size: 2.5rem;}
+li.nav-item {font-size: 2.5rem;}
 .logo {height: 100px;}
 .byline, .tbc, .lastchpbtn, .nextchpbtn, .chpbtn {font-size: 1.5rem;}
 .lastchpbtn, .nextchpbtn {margin-bottom: 5rem;}
